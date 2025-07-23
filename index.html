@@ -120,6 +120,29 @@
             color: #666;
         }
 
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .pricing-table th, .pricing-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        .pricing-table th {
+            background-color: #3498db;
+            color: white;
+            font-size: 1.1em;
+        }
+        .pricing-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .pricing-table .level-beginner { color: #2ecc71; font-weight: bold; }
+        .pricing-table .level-intermediate { color: #f1c40f; font-weight: bold; }
+        .pricing-table .level-advanced { color: #e74c3c; font-weight: bold; }
+
         footer {
             text-align: center;
             margin-top: 50px;
@@ -136,6 +159,7 @@
 
         <div class="note">
             <p><strong>💡 備註：</strong> 課程內容設計循序漸進，建議從初級課程開始學習，為您的 Unity 開發之路打下堅實基礎！</p>
+            <p><strong>📢 最新消息：</strong> 課程滿 10 人即開班！目前第二班剛開放報名，名額有限，請把握機會！</p>
         </div>
 
         ---
@@ -238,11 +262,36 @@
 
         ---
 
-        <h2 class="enroll">🔵 早鳥報名</h2>
+        <h2 class="enroll">🔵 早鳥報名與課程費用</h2>
         <div class="enrollment-section">
             <p>想開始您的 Unity 學習之旅嗎？現在就點擊下方按鈕，探索我們的課程並立即報名，開啟您的創意無限！</p>
+            <p><strong>💡 課程特色：</strong> 每班人數上限為 10 人，確保教學品質，提供最完善的學習體驗！</p>
+
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>課程級別</th>
+                        <th>早鳥優惠價 (每堂)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="level-beginner">初級課程</td>
+                        <td>NT$ 500</td>
+                    </tr>
+                    <tr>
+                        <td class="level-intermediate">中級課程</td>
+                        <td>NT$ 700</td>
+                    </tr>
+                    <tr>
+                        <td class="level-advanced">高級課程</td>
+                        <td>NT$ 1,000</td>
+                    </tr>
+                </tbody>
+            </table>
+
             <a href="your_enrollment_link_here" class="enrollment-button">前往報名頁面</a>
-            <p class="enrollment-note">點擊按鈕將會引導您前往課程報名頁面，了解更多課程時間與費用資訊。</p>
+            <p class="enrollment-note">點擊按鈕將會引導您前往課程報名頁面，了解更多課程時間與詳細費用資訊。</p>
         </div>
 
         <footer>
