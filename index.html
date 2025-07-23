@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity 課程介紹</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 5px solid;
+            font-size: 1.8em;
+        }
+        h2.beginner {
+            border-color: #2ecc71; /* Green */
+        }
+        h2.intermediate {
+            border-color: #f1c40f; /* Yellow */
+        }
+        h2.advanced {
+            border-color: #e74c3c; /* Red */
+        }
+        h2.enroll {
+            border-color: #3498db; /* Blue */
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            background: #ecf0f1;
+            margin-bottom: 12px;
+            padding: 15px 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        li:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        li strong {
+            color: #2c3e50;
+            font-size: 1.1em;
+            display: block;
+            margin-bottom: 5px;
+        }
+        li p {
+            margin: 0;
+            color: #555;
+        }
+        .note {
+            background-color: #ffeaa7;
+            border-left: 5px solid #fdcb6e;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 6px;
+            color: #4a4a4a;
+        }
+
+        /* Enrollment Section Styles */
+        .enrollment-section {
+            text-align: center;
+            margin-top: 50px;
+            background: #eaf6fd;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        .enrollment-section p {
+            font-size: 1.1em;
+            margin-bottom: 25px;
+            color: #444;
+        }
+        .enrollment-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 7px;
+            font-size: 1.3em;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .enrollment-button:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+        .enrollment-note {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Unity 綜合課程介紹 ✨</h1>
+
+        <div class="note">
+            <p><strong>💡 備註：</strong> 課程內容設計循序漸進，建議從初級課程開始學習，為您的 Unity 開發之路打下堅實基礎！</p>
+        </div>
+
+        ---
+
+        <h2 class="beginner">🟢 初級課程：入門與基礎建構</h2>
+        <ul>
+            <li>
+                <strong>Unity 介面全攻略</strong>
+                <p>認識五大視窗與工具列，學會物件選取、導航與快捷鍵，建立操作基礎。</p>
+            </li>
+            <li>
+                <strong>場景組裝與物件操控</strong>
+                <p>建立地形與基本幾何體，調整位置、旋轉、縮放，體驗父子階層與資源匯入。</p>
+            </li>
+            <li>
+                <strong>角色骨架深度解析</strong>
+                <p>介紹 Humanoid Avatar 映射規則，掌握骨骼結構與動畫重定向概念。</p>
+            </li>
+            <li>
+                <strong>進入動畫大門</strong>
+                <p>以「門」為範例錄製關鍵幀，了解 Animation Clip、Animator 及播放設定。</p>
+            </li>
+            <li>
+                <strong>攝影機與光影基礎</strong>
+                <p>配置攝影機視角與 FOV，設置方向光、點光、聚光燈，營造初步光影。</p>
+            </li>
+            <li>
+                <strong>VRM 模型製作①</strong>
+                <p>將 FBX 轉 VRM，設定 Humanoid Rig 與中繼資料，生成 VRM Prefab。</p>
+            </li>
+            <li>
+                <strong>VRM 模型製作②</strong>
+                <p>綁定 BlendShapeClip，設定 MToon 材質，完成表情與卡通著色。</p>
+            </li>
+            <li>
+                <strong>VRM 模型製作③</strong>
+                <p>加入 Spring Bone 與 Collider，調校頭髮、裙擺等物理擺動。</p>
+            </li>
+        </ul>
+
+        ---
+
+        <h2 class="intermediate">🟡 中級課程：進階技巧與專案應用</h2>
+        <ul>
+            <li>
+                <strong>Animator 狀態機實戰</strong>
+                <p>建立 Animator Controller，透過參數切換待機、行走、舞蹈等多段動作。</p>
+            </li>
+            <li>
+                <strong>Timeline 序列編輯</strong>
+                <p>使用動畫、音訊軌同步事件，編排場景演出，體驗導演式時間控制。</p>
+            </li>
+            <li>
+                <strong>Cinemachine 運鏡設計</strong>
+                <p>建立多台虛擬攝影機，透過 Brain 與 Timeline 實現平滑切鏡頭與搖鏡。</p>
+            </li>
+            <li>
+                <strong>舞台光影進階</strong>
+                <p>掌握實時與烘焙光源，使用 Lightmap、Probe 打造舞台氛圍。</p>
+            </li>
+            <li>
+                <strong>後製特效實用指南</strong>
+                <p>套用 Bloom、景深、色調分級等後製效果，提升畫面質感。</p>
+            </li>
+            <li>
+                <strong>AI 輔助腳本</strong>
+                <p>示範 ChatGPT 產生 C# 互動腳本，學會提示撰寫與錯誤回饋。</p>
+            </li>
+            <li>
+                <strong>短篇動畫專案</strong>
+                <p>綜合運用 Timeline、Cinemachine、音樂與表情，完成 1–2 分鐘動畫。</p>
+            </li>
+        </ul>
+
+        ---
+
+        <h2 class="advanced">🔴 高級課程：專業專案開發與發布</h2>
+        <ul>
+            <li>
+                <strong>虛擬演唱會藍圖</strong>
+                <p>拆解角色、舞台、燈光、鏡頭等流程，制定專案時程與分工。</p>
+            </li>
+            <li>
+                <strong>舞台搭建與燈光美學</strong>
+                <p>搭設舞台結構，配置追光、彩光與粒子，烘焙環境光影。</p>
+            </li>
+            <li>
+                <strong>角色演出與音樂同步</strong>
+                <p>匯入舞蹈動畫，對齊節拍，設定口型與物理效果，完成表演。</p>
+            </li>
+            <li>
+                <strong>偶像級運鏡</strong>
+                <p>使用多機位特寫與全景剪輯，利用 Blend 及硬切營造節奏。</p>
+            </li>
+            <li>
+                <strong>最終潤飾與發佈</strong>
+                <p>校正色彩與混音，加入特效，使用 Unity Recorder 輸出並分享成果。</p>
+            </li>
+        </ul>
+
+        ---
+
+        <h2 class="enroll">🔵 立即報名</h2>
+        <div class="enrollment-section">
+            <p>想開始您的 Unity 學習之旅嗎？現在就點擊下方按鈕，探索我們的課程並立即報名，開啟您的創意無限！</p>
+            <a href="your_enrollment_link_here" class="enrollment-button">前往報名頁面</a>
+            <p class="enrollment-note">點擊按鈕將會引導您前往課程報名頁面，了解更多課程時間與費用資訊。</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Unity 課程中心。保留所有權利。</p>
+        </footer>
+    </div>
+</body>
+</html>
